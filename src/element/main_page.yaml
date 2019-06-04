@@ -5,3 +5,5 @@ search:
   id: "tv_search"
 selected:
   text: "自选"
+quotation_tab:
+  text: 行情

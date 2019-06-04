@@ -40,6 +40,8 @@ class TestSearch:
         search_page.click_selected(code)
         assert search_page.is_selected(code) == True
 
-    def test_is_follow_user(self):
-        # todo: 作业2
-        pass
+    @allure.story('验证用户未关注的状态')
+    @pytest.mark.parametrize('key,code', [('fenny', 'Fenny')])
+    def test_is_follow_user(self, key, code):
+        self.search_page.search(key)
+        assert self.search_page.is_followed(code) == False

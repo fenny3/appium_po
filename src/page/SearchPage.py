@@ -35,8 +35,7 @@ class SearchPage(BasePage):
     def cancel(self):
         self.find_by_text("取消").click()
 
-    def search_by_user(self, key):
-        pass
-
-    def is_followed(self):
-        pass
+    def is_followed(self, key):
+        resource_id = self.find((By.XPATH, self.element['follow_button']['xpath'].format(key))).get_attribute('resourceId')
+        print(resource_id)
+        return "followed_btn" in resource_id

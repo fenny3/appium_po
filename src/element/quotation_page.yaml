@@ -1,0 +1,3 @@
+
+index_price:
+  xpath: "//*[contains(@resource-id, 'index_name') and @text='%s']/../*[contains(@resource-id,'index_price')]"

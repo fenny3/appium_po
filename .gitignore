@@ -4,5 +4,8 @@
 .idea
 *.swp
 ./report/xml/*
+./report/html/*
 .pytest_cache
 *.png
+report/xml/*
+report/html/*

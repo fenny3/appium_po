@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Jun 04 17:13:08 CST 2019","Tue Jun 04 17:13:23 CST 2019","14482","src.testcase","test_search","TestSearch","","","test_is_selected_stock",""
-"failed","Tue Jun 04 17:12:20 CST 2019","Tue Jun 04 17:12:29 CST 2019","8728","src.testcase","test_search","TestSearch","","","test_is_selected_stock_hs[招商银行-SH600036]",""
-"passed","Tue Jun 04 17:12:29 CST 2019","Tue Jun 04 17:12:50 CST 2019","21192","src.testcase","test_search","TestSearch","","","test_is_selected_stock_hs[平安银行-SZ000001]",""
-"passed","Tue Jun 04 17:13:43 CST 2019","Tue Jun 04 17:13:43 CST 2019","0","src.testcase","test_search","TestSearch","","","test_is_follow_user",""
-"passed","Tue Jun 04 17:13:23 CST 2019","Tue Jun 04 17:13:43 CST 2019","19740","src.testcase","test_search","TestSearch","","","test_add_stock_hs[招商银行-SH600036]",""
-"failed","Tue Jun 04 16:54:28 CST 2019","Tue Jun 04 16:54:46 CST 2019","17815","src.testcase","test_selected","TestSelected","","","test_price",""
-"passed","Tue Jun 04 17:12:50 CST 2019","Tue Jun 04 17:13:08 CST 2019","17997","src.testcase","test_search","TestSearch","","","test_is_selected_stock_hs[pingan-SH601318]",""

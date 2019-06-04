@@ -11,6 +11,7 @@ import yaml
 from selenium.webdriver.common.by import By
 
 from src.page.BasePage import BasePage
+from src.page.QuotationPage import QuotationPage
 from src.page.SearchPage import SearchPage
 from src.page.SelectedPage import SelectedPage
 
@@ -34,3 +35,7 @@ class MainPage(BasePage):
     def goto_search(self):
         self.find((By.ID, self.element['search']['id'])).click()
         return SearchPage()
+
+    def goto_quotation(self):
+        self.find_by_text(self.element['quotation_tab']['text']).click()
+        return QuotationPage()

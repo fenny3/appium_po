@@ -7,3 +7,6 @@ cancle:
 
 select_button:
   xpath: "//*[contains(@resource-id, 'stockCode') and contains(@text, '{}')]/../../..//*[contains(@resource-id, 'follow')]"
+
+follow_button:
+  xpath: "//*[contains(@resource-id, 'user_name') and contains(@text, '{}')]/../following-sibling::android.widget.LinearLayout/*[contains[@text, 'follow']]"
