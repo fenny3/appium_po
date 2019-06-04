@@ -1,0 +1,7 @@
+
+profile:
+  id: "user_profile_icon"
+search:
+  id: "tv_search"
+selected:
+  text: "自选"

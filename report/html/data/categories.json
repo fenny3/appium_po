@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 28.82 == 28.83\n +  where 28.82 = <bound method SelectedPage.get_price_by_name of <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>>('科大讯飞')\n +    where <bound method SelectedPage.get_price_by_name of <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>> = <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>.get_price_by_name\n +      where <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8> = <bound method SelectedPage.add_default of <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>>()\n +        where <bound method SelectedPage.add_default of <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>> = <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>.add_default\n +          where <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8> = <bound method SelectedPage.goto_hs of <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>>()\n +            where <bound method SelectedPage.goto_hs of <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>> = <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8>.goto_hs\n +              where <src.page.SelectedPage.SelectedPage object at 0x106c1e0b8> = <src.testcase.test_selected.TestSelected object at 0x106c0af60>.selected_page",
+      "children" : [ {
+        "name" : "test_price",
+        "uid" : "85469a99505ebc7f",
+        "parentUid" : "6185007012f77712001a04424aa6895e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559638468694,
+          "stop" : 1559638486509,
+          "duration" : 17815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6185007012f77712001a04424aa6895e"
+    }, {
+      "name" : "AssertionError: assert True == False\n +  where True = <bound method SearchPage.is_selected of <src.page.SearchPage.SearchPage object at 0x111862400>>('SH600036')\n +    where <bound method SearchPage.is_selected of <src.page.SearchPage.SearchPage object at 0x111862400>> = <src.page.SearchPage.SearchPage object at 0x111862400>.is_selected\n +      where <src.page.SearchPage.SearchPage object at 0x111862400> = <src.testcase.test_search.TestSearch object at 0x111862f28>.search_page",
+      "children" : [ {
+        "name" : "test_is_selected_stock_hs[招商银行-SH600036]",
+        "uid" : "73dbb17b93aa8d1b",
+        "parentUid" : "2f1d536794119f13448341e4f57cd369",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559639540774,
+          "stop" : 1559639549502,
+          "duration" : 8728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      } ],
+      "uid" : "2f1d536794119f13448341e4f57cd369"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,71 @@
+[ {
+  "uid" : "73dbb17b93aa8d1b",
+  "name" : "test_is_selected_stock_hs[招商银行-SH600036]",
+  "time" : {
+    "start" : 1559639540774,
+    "stop" : 1559639549502,
+    "duration" : 8728
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcaf8f84a0f03c2a",
+  "name" : "test_is_follow_user",
+  "time" : {
+    "start" : 1559639623063,
+    "stop" : 1559639623063,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a08eb6b073bcba49",
+  "name" : "test_is_selected_stock",
+  "time" : {
+    "start" : 1559639588828,
+    "stop" : 1559639603310,
+    "duration" : 14482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dd0899dc0ab4b0a",
+  "name" : "test_is_selected_stock_hs[平安银行-SZ000001]",
+  "time" : {
+    "start" : 1559639549623,
+    "stop" : 1559639570815,
+    "duration" : 21192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "710f07d453243d7a",
+  "name" : "test_add_stock_hs[招商银行-SH600036]",
+  "time" : {
+    "start" : 1559639603317,
+    "stop" : 1559639623057,
+    "duration" : 19740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c856ed3dafd204ce",
+  "name" : "test_is_selected_stock_hs[pingan-SH601318]",
+  "time" : {
+    "start" : 1559639570825,
+    "stop" : 1559639588822,
+    "duration" : 17997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85469a99505ebc7f",
+  "name" : "test_price",
+  "time" : {
+    "start" : 1559638468694,
+    "stop" : 1559638486509,
+    "duration" : 17815
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,5 @@
+default_add:
+  text: 加入自选股
+
+stock_price:
+  xpath: "//*[contains(@resource-id, 'stockName') and @text='%s']/../../..//*[contains(@resource-id, 'currentPrice')]"

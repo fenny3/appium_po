@@ -1,0 +1,20 @@
+close_button:
+  xpath: "//*[contains(@resource-id, 'iv_close') or contains(@resource-id, 'iv_action_back')]"
+other_locator:
+  id: "tv_login_by_phone_or_others"
+register_phone:
+  id: "register_phone_number"
+register_code:
+  id: "register_code"
+button_next:
+  id: "button_next"
+tv_login_with_account:
+  id: "tv_login_with_account"
+login_account:
+  id: "login_account"
+login_password:
+  id: "login_password"
+error_msg:
+  id: "md_content"
+
+

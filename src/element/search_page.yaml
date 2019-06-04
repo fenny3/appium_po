@@ -1,0 +1,9 @@
+input:
+  id: search_input_text
+  class: android.widget.EditText
+
+cancle:
+  text: 取消
+
+select_button:
+  xpath: "//*[contains(@resource-id, 'stockCode') and contains(@text, '{}')]/../../..//*[contains(@resource-id, 'follow')]"

@@ -1,0 +1,21 @@
+
+BaseCaps: &BaseCaps
+  platformName: Android
+  deviceName: demo
+  appPackage: "com.xueqiu.android"
+  appActivity: ".view.WelcomeActivityAlias"
+
+InstallCaps:
+  <<: *BaseCaps
+  autoGrantPermissions: true
+
+RestartCaps:
+  <<: *BaseCaps
+  noReset: true
+  unicodeKeyboard: True
+  resetKeyboard: True
+  chromedriverExecutableDir: "/Users/feeny/Documents/chromedriver/"
+
+RemoteUrl: "http://localhost:4723/wd/hub"
+
+IMPLICITLY_WAIT_TIME: 15

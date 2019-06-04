@@ -1,0 +1,371 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "feenynoMacBook-Air.local",
+    "children" : [ {
+      "name" : "7334-MainThread",
+      "children" : [ {
+        "name" : "test_is_follow_user",
+        "uid" : "951ea2f9b9a35ffa",
+        "parentUid" : "c5c711e6f90a345c27a81634446a14c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639388033,
+          "stop" : 1559639388033,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_is_selected_stock_hs[招商银行-SH600036]",
+        "uid" : "31b980d08d9a1ae9",
+        "parentUid" : "c5c711e6f90a345c27a81634446a14c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639291403,
+          "stop" : 1559639300301,
+          "duration" : 8898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      }, {
+        "name" : "test_add_stock_hs[招商银行-SH600036]",
+        "uid" : "364648b97bca4c1a",
+        "parentUid" : "c5c711e6f90a345c27a81634446a14c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559639353095,
+          "stop" : 1559639387821,
+          "duration" : 34726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      }, {
+        "name" : "test_is_selected_stock_hs[平安银行-SZ000001]",
+        "uid" : "3a8f88bcfa773e8b",
+        "parentUid" : "c5c711e6f90a345c27a81634446a14c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639300340,
+          "stop" : 1559639326442,
+          "duration" : 26102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SZ000001'", "'平安银行'" ]
+      }, {
+        "name" : "test_is_selected_stock",
+        "uid" : "c7ecc1935282680d",
+        "parentUid" : "c5c711e6f90a345c27a81634446a14c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639345012,
+          "stop" : 1559639353086,
+          "duration" : 8074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_is_selected_stock_hs[pingan-SH601318]",
+        "uid" : "50690ce4259d38bd",
+        "parentUid" : "c5c711e6f90a345c27a81634446a14c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639326448,
+          "stop" : 1559639344999,
+          "duration" : 18551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH601318'", "'pingan'" ]
+      } ],
+      "uid" : "c5c711e6f90a345c27a81634446a14c9"
+    }, {
+      "name" : "7068-MainThread",
+      "children" : [ {
+        "name" : "test_is_follow_user",
+        "uid" : "be76af1c64e3986a",
+        "parentUid" : "9db81b0d3abb85c6c652f1b80a78a124",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559638610943,
+          "stop" : 1559638610943,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_is_selected_stock_hs[pingan-SH601318]",
+        "uid" : "43cdddd07d4c2f14",
+        "parentUid" : "9db81b0d3abb85c6c652f1b80a78a124",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638573443,
+          "stop" : 1559638592262,
+          "duration" : 18819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH601318'", "'pingan'" ]
+      }, {
+        "name" : "test_is_selected_stock_hs[招商银行-SH600036]",
+        "uid" : "1b1f2327884c8757",
+        "parentUid" : "9db81b0d3abb85c6c652f1b80a78a124",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638541701,
+          "stop" : 1559638548079,
+          "duration" : 6378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      }, {
+        "name" : "test_is_selected_stock_hs[平安银行-SZ000001]",
+        "uid" : "81f23f62a994059a",
+        "parentUid" : "9db81b0d3abb85c6c652f1b80a78a124",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638548205,
+          "stop" : 1559638573419,
+          "duration" : 25214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SZ000001'", "'平安银行'" ]
+      }, {
+        "name" : "test_add_stock_hs[招商银行-SH600036]",
+        "uid" : "bdf22c666777ba6f",
+        "parentUid" : "9db81b0d3abb85c6c652f1b80a78a124",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638601276,
+          "stop" : 1559638610831,
+          "duration" : 9555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      }, {
+        "name" : "test_is_selected_stock",
+        "uid" : "9e8730b2527433db",
+        "parentUid" : "9db81b0d3abb85c6c652f1b80a78a124",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559638592281,
+          "stop" : 1559638601269,
+          "duration" : 8988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9db81b0d3abb85c6c652f1b80a78a124"
+    }, {
+      "name" : "7454-MainThread",
+      "children" : [ {
+        "name" : "test_add_stock_hs[招商银行-SH600036]",
+        "uid" : "710f07d453243d7a",
+        "parentUid" : "cb051e6969c5f14a7a99c01cecf82837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639603317,
+          "stop" : 1559639623057,
+          "duration" : 19740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      }, {
+        "name" : "test_is_selected_stock_hs[招商银行-SH600036]",
+        "uid" : "73dbb17b93aa8d1b",
+        "parentUid" : "cb051e6969c5f14a7a99c01cecf82837",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559639540774,
+          "stop" : 1559639549502,
+          "duration" : 8728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      }, {
+        "name" : "test_is_selected_stock",
+        "uid" : "a08eb6b073bcba49",
+        "parentUid" : "cb051e6969c5f14a7a99c01cecf82837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639588828,
+          "stop" : 1559639603310,
+          "duration" : 14482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_is_follow_user",
+        "uid" : "dcaf8f84a0f03c2a",
+        "parentUid" : "cb051e6969c5f14a7a99c01cecf82837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639623063,
+          "stop" : 1559639623063,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_is_selected_stock_hs[平安银行-SZ000001]",
+        "uid" : "4dd0899dc0ab4b0a",
+        "parentUid" : "cb051e6969c5f14a7a99c01cecf82837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639549623,
+          "stop" : 1559639570815,
+          "duration" : 21192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SZ000001'", "'平安银行'" ]
+      }, {
+        "name" : "test_is_selected_stock_hs[pingan-SH601318]",
+        "uid" : "c856ed3dafd204ce",
+        "parentUid" : "cb051e6969c5f14a7a99c01cecf82837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559639570825,
+          "stop" : 1559639588822,
+          "duration" : 17997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH601318'", "'pingan'" ]
+      } ],
+      "uid" : "cb051e6969c5f14a7a99c01cecf82837"
+    }, {
+      "name" : "7193-MainThread",
+      "children" : [ {
+        "name" : "test_is_selected_stock_hs[招商银行-SH600036]",
+        "uid" : "e8d585c09250f6c4",
+        "parentUid" : "56f7d789ce96a50d34344205d7af67ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638910404,
+          "stop" : 1559638916764,
+          "duration" : 6360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      }, {
+        "name" : "test_add_stock_hs[招商银行-SH600036]",
+        "uid" : "34afb2562b4c1a2f",
+        "parentUid" : "56f7d789ce96a50d34344205d7af67ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638966300,
+          "stop" : 1559638982573,
+          "duration" : 16273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH600036'", "'招商银行'" ]
+      }, {
+        "name" : "test_is_selected_stock_hs[平安银行-SZ000001]",
+        "uid" : "db581f7180b39e2",
+        "parentUid" : "56f7d789ce96a50d34344205d7af67ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638917011,
+          "stop" : 1559638937722,
+          "duration" : 20711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SZ000001'", "'平安银行'" ]
+      }, {
+        "name" : "test_is_selected_stock",
+        "uid" : "2af7d11340ff3ac7",
+        "parentUid" : "56f7d789ce96a50d34344205d7af67ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559638957178,
+          "stop" : 1559638966291,
+          "duration" : 9113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_is_selected_stock_hs[pingan-SH601318]",
+        "uid" : "dd0fee2ef8a4d314",
+        "parentUid" : "56f7d789ce96a50d34344205d7af67ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638937786,
+          "stop" : 1559638957091,
+          "duration" : 19305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SH601318'", "'pingan'" ]
+      }, {
+        "name" : "test_is_follow_user",
+        "uid" : "febcebc6a50705ef",
+        "parentUid" : "56f7d789ce96a50d34344205d7af67ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559638982633,
+          "stop" : 1559638982633,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56f7d789ce96a50d34344205d7af67ff"
+    }, {
+      "name" : "6906-MainThread",
+      "children" : [ {
+        "name" : "test_price",
+        "uid" : "786e8ee07c44c1dc",
+        "parentUid" : "089368d2e33b94b143f5d363b50a47ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559638315484,
+          "stop" : 1559638335129,
+          "duration" : 19645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "089368d2e33b94b143f5d363b50a47ab"
+    }, {
+      "name" : "6989-MainThread",
+      "children" : [ {
+        "name" : "test_price",
+        "uid" : "85469a99505ebc7f",
+        "parentUid" : "e3b16e70be229ebc84d598e096ce99b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559638468694,
+          "stop" : 1559638486509,
+          "duration" : 17815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3b16e70be229ebc84d598e096ce99b1"
+    } ],
+    "uid" : "b36c4171006b2819e1d5e95e2b5d6729"
+  } ]
+}
