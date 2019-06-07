@@ -28,20 +28,20 @@ class TestSearch:
         self.search_page.search(key)
         assert self.search_page.is_selected(code) == False
 
-    def test_is_selected_stock(self):
-        self.search_page.search('alibaba')
-
-    @allure.story('测试添加股票')
-    @pytest.mark.parametrize('key, code', [('招商银行', 'SH600036')])
-    def test_add_stock_hs(self, key, code):
-        search_page = self.search_page.search(key)
-        if search_page.is_selected(code):
-            search_page.click_selected(code)
-        search_page.click_selected(code)
-        assert search_page.is_selected(code) == True
-
-    @allure.story('验证用户未关注的状态')
-    @pytest.mark.parametrize('key,code', [('fenny', 'Fenny')])
-    def test_is_follow_user(self, key, code):
-        self.search_page.search(key)
-        assert self.search_page.is_followed(code) == False
+    # def test_is_selected_stock(self):
+    #     self.search_page.search('alibaba')
+    #
+    # @allure.story('测试添加股票')
+    # @pytest.mark.parametrize('key, code', [('招商银行', 'SH600036')])
+    # def test_add_stock_hs(self, key, code):
+    #     search_page = self.search_page.search(key)
+    #     if search_page.is_selected(code):
+    #         search_page.click_selected(code)
+    #     search_page.click_selected(code)
+    #     assert search_page.is_selected(code) == True
+    #
+    # @allure.story('验证用户未关注的状态')
+    # @pytest.mark.parametrize('key,code', [('fenny', 'Fenny')])
+    # def test_is_follow_user(self, key, code):
+    #     self.search_page.search(key)
+    #     assert self.search_page.is_followed(code) == False

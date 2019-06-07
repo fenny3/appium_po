@@ -1,0 +1,4 @@
+get_index_price:
+  - by: xpath
+    locator: "//*[contains(@resource-id, 'index_name') and @text='$index_name']/../*[contains(@resource-id,'index_price')]"
+    action: text

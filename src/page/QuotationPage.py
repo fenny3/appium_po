@@ -14,10 +14,7 @@ from src.page.BasePage import BasePage
 
 
 class QuotationPage(BasePage):
-    def __init__(self):
-        super(QuotationPage, self).__init__()
-        with open(os.path.join(BasePage.element, 'quotation_page.yaml'), 'r') as rf:
-            self.element: dict = yaml.load(rf.read())
 
     def get_index_price(self, index_name):
-        return float(self.find((By.XPATH, self.element['index_price']['xpath'] % index_name)).text)
+        return float(self.load_steps('/Users/feeny/Touchpal/appium_po/src/data/QuotationPage.yaml', 'get_index_price', index_name=index_name))
+        # return float(self.find((By.XPATH, self.element['index_price']['xpath'] % index_name)).text)

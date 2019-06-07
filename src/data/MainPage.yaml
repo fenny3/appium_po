@@ -1,0 +1,20 @@
+
+goto_selected:
+  - by: text
+    locator: 自选
+    action: click
+
+goto_profile:
+  - by: id
+    locator: user_profile_icon
+    action: click
+
+goto_search:
+  - by: id
+    locator: tv_search
+    action: click
+
+goto_quotation:
+  - by: xpath
+    locator: //*[contains(@text, '行情')]
+    action: click

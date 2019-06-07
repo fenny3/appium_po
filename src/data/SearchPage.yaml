@@ -1,0 +1,27 @@
+elements:
+  select_button:
+    android:
+      by: xpath
+      locator: "//*[contains(@resource-id, 'stockCode') and contains(@text, '$stock_code')]/../../..//*[contains(@resource-id, 'follow')]"
+
+
+search:
+  - by: 'class name'
+    locator: android.widget.EditText
+    action: send_keys
+    text: $search_text
+
+click_selected:
+  - element: select_button
+    action: click
+
+is_selected:
+  - element: select_button
+    action: resourceId
+
+is_followed:
+  - by: xpath
+    locator: "//*[contains(@resource-id, 'user_name') and contains(@text, '$follow_button')]/../following-sibling::android.widget.LinearLayout/*[contains[@text, 'follow']]"
+    action: resourceId
+
+

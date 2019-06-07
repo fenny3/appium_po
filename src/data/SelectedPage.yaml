@@ -1,0 +1,9 @@
+add_default:
+  - by: text
+    locator: 加入自选股
+    action: click
+
+get_price_by_name:
+  - by: xpath
+    locator: "//*[contains(@resource-id, 'stockName') and @text='$stock_name']/../../..//*[contains(@resource-id, 'currentPrice')]"
+    action: text

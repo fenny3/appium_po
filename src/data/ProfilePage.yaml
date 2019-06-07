@@ -1,0 +1,4 @@
+goto_login:
+  - by: text
+    locator: 点击登录
+    action: click

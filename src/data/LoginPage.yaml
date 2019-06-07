@@ -1,0 +1,56 @@
+
+# 当某个元素不止在一个操作中使用时，可以抽出来放在这边。
+# 对于android ios双平台功能一致，只是定位符不同的元素，可以抽出来放在这边。如果双平台功能差别比较大，就还是放在两个yaml文件管理。
+# 对于一个支持双平台的app，双平台一致的功能可以把元素及操作放在一个yaml，功能不一致的防在两个。
+# 下面只是一个例子
+elements:
+  tv_login_by_phone_or_others:
+    android:
+      by: id
+      locator: tv_login_by_phone_or_others
+    ios:
+      by: xxx
+      locator: xxx
+  tv_login_with_account:
+    android:
+      by: id
+      locator: tv_login_with_account
+    ios:
+      xxx
+  login_password:
+    android:
+      by: id
+      locator: login_password
+    ios:
+      xxx
+
+
+login_by_passwd:
+  - element: tv_login_by_phone_or_others
+    action: click
+    tips: '选择手机号及其他方式登录'
+  - element: tv_login_with_account
+    action: click
+    tips: '选择帐号密码登录'
+  - by: id
+    locator: login_account
+    action: send_keys
+    text: $account
+    tips: '输入用户名'
+  - element: login_password
+    action: send_keys
+    text: $passwd
+    tips: '输入密码'
+  - by: id
+    locator: button_next
+    action: click
+    tips: '点击登录按钮'
+
+get_error_msg:
+  - by: id
+    locator: md_content
+    action: text
+back:
+  - by: xpath
+    locator: "//*[contains(@resource-id, 'iv_close') or contains(@resource-id, 'iv_action_back')]"
+    action: click

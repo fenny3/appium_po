@@ -1,0 +1,29 @@
+
+platform: android
+server: http://localhost:4723/wd/hub
+implicitly_wait: 10
+
+base_android: &base_android
+  platformName: Android
+  deviceName: demo
+  appPackage: "com.xueqiu.android"
+  appActivity: ".view.WelcomeActivityAlias"
+
+install_app:
+  caps:
+    android:
+      <<: *base_android
+      autoGrantPermissions: true
+    ios:
+      xxx
+
+restart_app:
+  caps:
+    android:
+      <<: *base_android
+      noReset: true
+      unicodeKeyboard: True
+      resetKeyboard: True
+      chromedriverExecutableDir: "/Users/feeny/Documents/chromedriver/"
+    ios:
+      xxxx
