@@ -17,11 +17,13 @@ click_selected:
 
 is_selected:
   - element: select_button
-    action: resourceId
+    action: get_attribute
+    attribute: resourceId
 
 is_followed:
   - by: xpath
     locator: "//*[contains(@resource-id, 'user_name') and contains(@text, '$follow_button')]/../following-sibling::android.widget.LinearLayout/*[contains[@text, 'follow']]"
-    action: resourceId
+    action: get_attribute
+    attribute: resourceId
 
 
